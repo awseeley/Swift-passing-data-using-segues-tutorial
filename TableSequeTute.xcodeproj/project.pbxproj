@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		94DDFCB31A4A5A69006C2E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCB21A4A5A69006C2E21 /* AppDelegate.swift */; };
-		94DDFCB51A4A5A69006C2E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCB41A4A5A69006C2E21 /* ViewController.swift */; };
-		94DDFCB81A4A5A69006C2E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDFCB61A4A5A69006C2E21 /* Main.storyboard */; };
 		94DDFCBA1A4A5A69006C2E21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DDFCB91A4A5A69006C2E21 /* Images.xcassets */; };
 		94DDFCBD1A4A5A69006C2E21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DDFCBB1A4A5A69006C2E21 /* LaunchScreen.xib */; };
 		94DDFCC91A4A5A69006C2E21 /* TableSequeTuteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCC81A4A5A69006C2E21 /* TableSequeTuteTests.swift */; };
+		94DDFCD61A4A5A8F006C2E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCD21A4A5A8F006C2E21 /* ViewController.swift */; };
+		94DDFCD71A4A5A8F006C2E21 /* vwTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DDFCD31A4A5A8F006C2E21 /* vwTblCell.xib */; };
+		94DDFCD81A4A5A8F006C2E21 /* TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCD41A4A5A8F006C2E21 /* TblCell.swift */; };
+		94DDFCD91A4A5A8F006C2E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDFCD51A4A5A8F006C2E21 /* Main.storyboard */; };
+		94DDFCDF1A4A999E006C2E21 /* modelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDFCDE1A4A999E006C2E21 /* modelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		94DDFCAD1A4A5A69006C2E21 /* TableSequeTute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableSequeTute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DDFCB11A4A5A69006C2E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94DDFCB21A4A5A69006C2E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94DDFCB41A4A5A69006C2E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94DDFCB71A4A5A69006C2E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94DDFCB91A4A5A69006C2E21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94DDFCBC1A4A5A69006C2E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94DDFCC21A4A5A69006C2E21 /* TableSequeTuteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableSequeTuteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DDFCC71A4A5A69006C2E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94DDFCC81A4A5A69006C2E21 /* TableSequeTuteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSequeTuteTests.swift; sourceTree = "<group>"; };
+		94DDFCD21A4A5A8F006C2E21 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94DDFCD31A4A5A8F006C2E21 /* vwTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vwTblCell.xib; sourceTree = "<group>"; };
+		94DDFCD41A4A5A8F006C2E21 /* TblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblCell.swift; sourceTree = "<group>"; };
+		94DDFCD51A4A5A8F006C2E21 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94DDFCDE1A4A999E006C2E21 /* modelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				94DDFCB21A4A5A69006C2E21 /* AppDelegate.swift */,
-				94DDFCB41A4A5A69006C2E21 /* ViewController.swift */,
-				94DDFCB61A4A5A69006C2E21 /* Main.storyboard */,
+				94DDFCD21A4A5A8F006C2E21 /* ViewController.swift */,
+				94DDFCD31A4A5A8F006C2E21 /* vwTblCell.xib */,
+				94DDFCD41A4A5A8F006C2E21 /* TblCell.swift */,
+				94DDFCD51A4A5A8F006C2E21 /* Main.storyboard */,
+				94DDFCDE1A4A999E006C2E21 /* modelView.swift */,
 				94DDFCB91A4A5A69006C2E21 /* Images.xcassets */,
 				94DDFCBB1A4A5A69006C2E21 /* LaunchScreen.xib */,
 				94DDFCB01A4A5A69006C2E21 /* Supporting Files */,
@@ -192,9 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DDFCB81A4A5A69006C2E21 /* Main.storyboard in Resources */,
 				94DDFCBD1A4A5A69006C2E21 /* LaunchScreen.xib in Resources */,
 				94DDFCBA1A4A5A69006C2E21 /* Images.xcassets in Resources */,
+				94DDFCD71A4A5A8F006C2E21 /* vwTblCell.xib in Resources */,
+				94DDFCD91A4A5A8F006C2E21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DDFCB51A4A5A69006C2E21 /* ViewController.swift in Sources */,
+				94DDFCD61A4A5A8F006C2E21 /* ViewController.swift in Sources */,
 				94DDFCB31A4A5A69006C2E21 /* AppDelegate.swift in Sources */,
+				94DDFCDF1A4A999E006C2E21 /* modelView.swift in Sources */,
+				94DDFCD81A4A5A8F006C2E21 /* TblCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94DDFCB61A4A5A69006C2E21 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94DDFCB71A4A5A69006C2E21 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		94DDFCBB1A4A5A69006C2E21 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +409,7 @@
 				94DDFCCE1A4A5A69006C2E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DDFCCF1A4A5A69006C2E21 /* Build configuration list for PBXNativeTarget "TableSequeTuteTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				94DDFCD11A4A5A69006C2E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
